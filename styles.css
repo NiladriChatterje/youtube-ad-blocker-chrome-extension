@@ -1,0 +1,24 @@
+/* Hide ad-related elements */
+.ytp-ad-overlay-container,
+.ytd-promoted-video-renderer,
+.ytd-display-ad-renderer,
+.ytd-companion-slot-renderer,
+ytd-masthead-ad-renderer,
+ytd-in-feed-ad-layout-renderer {
+    display: none !important;
+}
+
+/* Hide ad elements in the video player */
+.video-ads.ytp-ad-module {
+    display: none !important;
+}
+
+/* Hide sponsored cards */
+.ytp-cards-teaser {
+    display: none !important;
+}
+
+/* Hide suggested ad content */
+ytd-compact-promoted-video-renderer {
+    display: none !important;
+}
